@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Yac_Mobile</string>
+    <string name="app_name">yac</string>
+    <!-- QA -->
+    <!-- <string name="CodePushDeploymentKey" moduleConfig="true">V0bztsji93HwtA20J_ZuOdIestQ_AfzJ8qfBE</string> -->
+    <!-- PRODUCTION -->
+    <string name="CodePushDeploymentKey" moduleConfig="true">QA-pj2QhupfVvoVHFBkiXKW9C49uVp-H5wPsg</string>
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
+    <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+    <string name="default_notification_channel_id">Default</string>
 </resources>

@@ -1,9 +1,41 @@
-<resources>
-
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
-        <item name="android:textColor">#000000</item>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
     </style>
 
+    <style name="DefaultExplainingPermissionsTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">@color/colorPrimary</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <!-- Used for the background -->
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:statusBarColor" tools:targetApi="21">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/colorPrimaryDark</item>
+
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorSwitchThumbNormal">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/backgroundColor</item>
+
+        <item name="alertDialogTheme">@style/DefaultExplainingPermissionsTheme</item>
+        <item name="alertDialogStyle">@style/DefaultExplainingPermissionsTheme</item>
+        <item name="android:alertDialogTheme">@style/DefaultExplainingPermissionsTheme</item>
+        <item name="android:alertDialogStyle">@style/DefaultExplainingPermissionsTheme</item>
+    </style>
 </resources>

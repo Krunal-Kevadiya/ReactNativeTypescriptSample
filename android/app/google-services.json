@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "690438657573",
+    "firebase_url": "https://yacproject-581cf.firebaseio.com",
+    "project_id": "yacproject-581cf",
+    "storage_bucket": "yacproject-581cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690438657573:android:77091a4d46c0f9a41b11cc",
+        "android_client_info": {
+          "package_name": "com.yac.brb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690438657573-fbvjg0lhjdmlmajm867k7i49npobese9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrzF07PUd6HMCcP3yvbQtH5PSPNKixPB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690438657573-fbvjg0lhjdmlmajm867k7i49npobese9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "690438657573-v364bflne6fgdh6om5842nlmf12eastg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yac.brb"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690438657573:android:c04fa2dd34f11e881b11cc",
+        "android_client_info": {
+          "package_name": "com.yac.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690438657573-p3qv6mcapf4jikf8386mi9b3b56efdck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yac.mobile",
+            "certificate_hash": "0e23dede142fa7c95c02b0012d4cb91346079114"
+          }
+        },
+        {
+          "client_id": "690438657573-fbvjg0lhjdmlmajm867k7i49npobese9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrzF07PUd6HMCcP3yvbQtH5PSPNKixPB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690438657573-fbvjg0lhjdmlmajm867k7i49npobese9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "690438657573-v364bflne6fgdh6om5842nlmf12eastg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yac.brb"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "429288133211",
+    "firebase_url": "https://yac-dummy.firebaseio.com",
+    "project_id": "yac-dummy",
+    "storage_bucket": "yac-dummy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429288133211:android:ce4cae93a724096c1da57e",
+        "android_client_info": {
+          "package_name": "com.yac.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429288133211-lg4bka9h0rj1ibsjf6bnt65egoj76h1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT0UHU-AUQwejJK0TEA-9yZSrbGk9oCC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429288133211-lg4bka9h0rj1ibsjf6bnt65egoj76h1g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "429288133211-6fegpfr1tmj8iphlbivlq0pj12mmf0gs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yac.mobile"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

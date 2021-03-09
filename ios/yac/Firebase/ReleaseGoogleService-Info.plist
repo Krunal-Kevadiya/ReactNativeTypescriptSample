@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>690438657573-v9druokeqj1rqbn4q5ash3jtj2s9t68f.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.690438657573-v9druokeqj1rqbn4q5ash3jtj2s9t68f</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>690438657573-p3qv6mcapf4jikf8386mi9b3b56efdck.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDwqokkN53Hixk1fHP3_H-PXhoZhx8akA0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>690438657573</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.yac.mobile</string>
+	<key>PROJECT_ID</key>
+	<string>yacproject-581cf</string>
+	<key>STORAGE_BUCKET</key>
+	<string>yacproject-581cf.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:690438657573:ios:52efcaef1c95a62f1b11cc</string>
+	<key>DATABASE_URL</key>
+	<string>https://yacproject-581cf.firebaseio.com</string>
+</dict>
+</plist>

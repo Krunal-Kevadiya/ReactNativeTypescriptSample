@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>923556038870-nvvmf98kc2isadv8pg3lirsjaardjhop.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.923556038870-nvvmf98kc2isadv8pg3lirsjaardjhop</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAU7wR9AZ_nsMRgqQTM0XsqdNeaCGiOzfc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>923556038870</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.yac.mobile</string>
+	<key>PROJECT_ID</key>
+	<string>yac-stagging</string>
+	<key>STORAGE_BUCKET</key>
+	<string>yac-stagging.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:923556038870:ios:e8c9f94ba7296585c22177</string>
+	<key>DATABASE_URL</key>
+	<string>https://yac-stagging.firebaseio.com</string>
+</dict>
+</plist>

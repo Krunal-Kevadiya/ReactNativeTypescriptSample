@@ -3,31 +3,68 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'Yac_Mobile' do
+target 'yac' do
+  permissions_path = '../node_modules/react-native-permissions/ios'
+  pod 'Permission-Camera', :path => "#{permissions_path}/Camera"
+  pod 'Permission-Contacts', :path => "#{permissions_path}/Contacts"
+  pod 'Permission-MediaLibrary', :path => "#{permissions_path}/MediaLibrary"
+  pod 'Permission-Microphone', :path => "#{permissions_path}/Microphone"
+  pod 'Permission-Notifications', :path => "#{permissions_path}/Notifications"
+  pod 'Permission-PhotoLibrary', :path => "#{permissions_path}/PhotoLibrary"
+  
+  # Add the pod for Firebase Cloud Messaging
+  pod 'Firebase/Messaging'
+
   config = use_native_modules!
 
-  use_react_native!(:path => config["reactNativePath"])
-
-  target 'Yac_MobileTests' do
-    inherit! :complete
-    # Pods for testing
-  end
+  use_react_native!(
+    :path => config[:reactNativePath],
+    # to enable hermes on iOS, change `false` to `true` and then install pods
+    :hermes_enabled => true
+  )
 
   # Enables Flipper.
   #
   # Note that if you have use_frameworks! enabled, Flipper will not work and
-  # you should disable these next few lines.
-  use_flipper!
+  # you should disable the next line.
+  use_flipper!({ 'Flipper-Folly' => '2.5.3', 'Flipper' => '0.87.0', 'Flipper-RSocket' => '1.3.1' })
+
+  # Define find-and-replace function
+  def find_and_replace(dir, findstr, replacestr)
+    Dir[dir].each do |name|
+        text = File.read(name)
+        replace = text.gsub(findstr,replacestr)
+        replaced = text.index(replacestr)
+        if replaced == nil && text != replace
+            puts "Fix: " + name
+            File.open(name, "w") { |file| file.puts replace }
+            STDOUT.flush
+        end
+    end
+    Dir[dir + '*/'].each(&method(:find_and_replace))
+  end
+
   post_install do |installer|
-    flipper_post_install(installer)
-  end
-end
+    react_native_post_install(installer)
+    installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings['EXCLUDED_ARCHS[sdk=iphonesimulator*]'] = 'arm64'
+        end
+    end
 
-target 'Yac_Mobile-tvOS' do
-  # Pods for Yac_Mobile-tvOS
+    #     Fix for Flipper-Folly on iOS 14.5
+  #    These are no longer required as Flipper-folly is updated
+  #   find_and_replace("Pods/Flipper-Folly/folly/synchronization/DistributedMutex-inl.h",
+  #                    "atomic_notify_one(state)", "folly::atomic_notify_one(state)")
 
-  target 'Yac_Mobile-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
+  #   find_and_replace("Pods/Flipper-Folly/folly/synchronization/DistributedMutex-inl.h",
+  #   "atomic_wait_until(&state, previous | data, deadline)", "folly::atomic_wait_until(&state, previous | data, deadline)")
+
+  find_and_replace("Pods/RCT-Folly/folly/synchronization/DistributedMutex-inl.h",
+                   "atomic_notify_one(state)", "folly::atomic_notify_one(state)")
+
+  find_and_replace("Pods/RCT-Folly/folly/synchronization/DistributedMutex-inl.h",
+  "atomic_wait_until(&state, previous | data, deadline)", "folly::atomic_wait_until(&state, previous | data, deadline)")
   end
+
 end

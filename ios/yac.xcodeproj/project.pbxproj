@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12B3869907434A43889F21D8 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 730E1704648F4D2EAC6464A2 /* SF-Pro-Text-Semibold.otf */; };
+		13299D28C1D44180AE20F6ED /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B31BBB2BBE3341AFACEF425B /* rubicon-icon-font.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		21E69D61A52F4128BE60D150 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 03BC30D2CB354DE9981522D2 /* SF-Pro-Text-Regular.otf */; };
+		3EDE0800FC644C7C8A1A968F /* SF-Pro-Text-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE11B8E65BED4BEFAB6804BD /* SF-Pro-Text-MediumItalic.otf */; };
+		448C992E9B4B40C686C01FC7 /* SF-Pro-Text-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4893C11D01074785BA531D30 /* SF-Pro-Text-LightItalic.otf */; };
+		56933BE498C04712A9EB15A3 /* SF-Pro-Text-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05C999CF4C9B47E0A3DF598A /* SF-Pro-Text-BoldItalic.otf */; };
+		5FA5534A9FB94A2D8537491F /* DMSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F5B19C14435400F9F5C447E /* DMSans-Italic.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		93E7553960A940E9B27866AD /* SF-Pro-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18F72C5AA15C4BA2AA1283FC /* SF-Pro-Text-SemiboldItalic.otf */; };
+		9D05A212BA734219808631AC /* SF-Pro-Text-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = F05D25C45AB840E68052004C /* SF-Pro-Text-Heavy.otf */; };
+		A19D6ECF2750413B9BF5508F /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEFEFC0D5F7941EDAAD6E5C2 /* Roboto_medium.ttf */; };
+		A2D1D6C15AEF48D59365CB06 /* SF-Pro-Text-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9D453B25D32B4CCB8E1FBA04 /* SF-Pro-Text-HeavyItalic.otf */; };
+		B036189EC63C4D2294F773FB /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C3BCA206712F4B1AB2DDA575 /* SF-Pro-Text-Bold.otf */; };
+		CAAC751B8BBE475387CEFB02 /* SF-Pro-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38702C847D0F44858B2C9DCA /* SF-Pro-Text-Light.otf */; };
+		D9431178730046E09C12D727 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B49C4035874460FB78D7427 /* Roboto.ttf */; };
+		DFB131BF965D4D74BD66B41B /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7757CCD273624F28AE843D76 /* SF-Pro-Text-Medium.otf */; };
+		E47A18CF285CCC98072B01F9 /* libPods-yac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F452467A47B45E804C037B64 /* libPods-yac.a */; };
+		E857B8BB2640589300E65CD7 /* alert1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8BA2640589300E65CD7 /* alert1.wav */; };
+		E857B8EA264058B800E65CD7 /* alert5.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8BD264058B600E65CD7 /* alert5.wav */; };
+		E857B8EB264058B800E65CD7 /* alert6.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8BE264058B600E65CD7 /* alert6.wav */; };
+		E857B8EC264058B800E65CD7 /* notification6_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8BF264058B600E65CD7 /* notification6_3.wav */; };
+		E857B8ED264058B800E65CD7 /* notification22.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8C0264058B600E65CD7 /* notification22.wav */; };
+		E857B8EE264058B800E65CD7 /* notification26.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8C1264058B600E65CD7 /* notification26.wav */; };
+		E857B8EF264058B800E65CD7 /* alert4.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8C2264058B600E65CD7 /* alert4.wav */; };
+		E857B8F0264058B800E65CD7 /* notification3_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8C3264058B600E65CD7 /* notification3_1.wav */; };
+		E857B8F1264058B800E65CD7 /* alert10.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8C4264058B600E65CD7 /* alert10.wav */; };
+		E857B8F2264058B800E65CD7 /* notification6_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8C5264058B600E65CD7 /* notification6_2.wav */; };
+		E857B8F3264058B800E65CD7 /* notification8.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8C6264058B600E65CD7 /* notification8.wav */; };
+		E857B8F4264058B800E65CD7 /* alert12.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8C7264058B600E65CD7 /* alert12.wav */; };
+		E857B8F5264058B800E65CD7 /* notification24.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8C8264058B600E65CD7 /* notification24.wav */; };
+		E857B8F6264058B800E65CD7 /* notification25.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8C9264058B600E65CD7 /* notification25.wav */; };
+		E857B8F7264058B800E65CD7 /* notification1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8CA264058B600E65CD7 /* notification1.wav */; };
+		E857B8F8264058B800E65CD7 /* notification11.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8CB264058B600E65CD7 /* notification11.wav */; };
+		E857B8F9264058B800E65CD7 /* alert14.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8CC264058B600E65CD7 /* alert14.wav */; };
+		E857B8FA264058B800E65CD7 /* notification9.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8CD264058B600E65CD7 /* notification9.wav */; };
+		E857B8FB264058B800E65CD7 /* notification10.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8CE264058B600E65CD7 /* notification10.wav */; };
+		E857B8FC264058B800E65CD7 /* notification2_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8CF264058B600E65CD7 /* notification2_1.wav */; };
+		E857B8FD264058B800E65CD7 /* notification4.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8D0264058B600E65CD7 /* notification4.wav */; };
+		E857B8FE264058B800E65CD7 /* notification6_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8D1264058B600E65CD7 /* notification6_4.wav */; };
+		E857B8FF264058B800E65CD7 /* notification2_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8D2264058B700E65CD7 /* notification2_2.wav */; };
+		E857B900264058B800E65CD7 /* alert13.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8D3264058B700E65CD7 /* alert13.wav */; };
+		E857B901264058B800E65CD7 /* notification14.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8D4264058B700E65CD7 /* notification14.wav */; };
+		E857B902264058B800E65CD7 /* notification7.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8D5264058B700E65CD7 /* notification7.wav */; };
+		E857B903264058B800E65CD7 /* alert8.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8D6264058B700E65CD7 /* alert8.wav */; };
+		E857B904264058B800E65CD7 /* notification6_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8D7264058B700E65CD7 /* notification6_1.wav */; };
+		E857B905264058B800E65CD7 /* notification5.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8D8264058B700E65CD7 /* notification5.wav */; };
+		E857B906264058B800E65CD7 /* notification13.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8D9264058B700E65CD7 /* notification13.wav */; };
+		E857B907264058B800E65CD7 /* notification16.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8DA264058B700E65CD7 /* notification16.wav */; };
+		E857B908264058B800E65CD7 /* alert15.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8DB264058B700E65CD7 /* alert15.wav */; };
+		E857B909264058B800E65CD7 /* notification19.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8DC264058B700E65CD7 /* notification19.wav */; };
+		E857B90A264058B800E65CD7 /* notification20.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8DD264058B700E65CD7 /* notification20.wav */; };
+		E857B90B264058B800E65CD7 /* notification17.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8DE264058B700E65CD7 /* notification17.wav */; };
+		E857B90C264058B800E65CD7 /* notification21.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8DF264058B700E65CD7 /* notification21.wav */; };
+		E857B90D264058B800E65CD7 /* notification12.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8E0264058B700E65CD7 /* notification12.wav */; };
+		E857B90E264058B800E65CD7 /* notification23.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8E1264058B700E65CD7 /* notification23.wav */; };
+		E857B90F264058B800E65CD7 /* alert7.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8E2264058B700E65CD7 /* alert7.wav */; };
+		E857B910264058B800E65CD7 /* alert9.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8E3264058B700E65CD7 /* alert9.wav */; };
+		E857B911264058B800E65CD7 /* notification3_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8E4264058B700E65CD7 /* notification3_2.wav */; };
+		E857B912264058B800E65CD7 /* alert3.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8E5264058B700E65CD7 /* alert3.wav */; };
+		E857B913264058B800E65CD7 /* alert2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8E6264058B700E65CD7 /* alert2.wav */; };
+		E857B914264058B800E65CD7 /* notification15.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8E7264058B700E65CD7 /* notification15.wav */; };
+		E857B915264058B800E65CD7 /* alert11.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8E8264058B700E65CD7 /* alert11.wav */; };
+		E857B916264058B800E65CD7 /* notification18.wav in Resources */ = {isa = PBXBuildFile; fileRef = E857B8E9264058B700E65CD7 /* notification18.wav */; };
+		F09EB5A01A914E66B0F360E8 /* SF-Pro-Text-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 11EF4E3E354749BFA4BADB92 /* SF-Pro-Text-RegularItalic.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03BC30D2CB354DE9981522D2 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-Regular.otf"; path = "../src/assets/fonts/SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		05C999CF4C9B47E0A3DF598A /* SF-Pro-Text-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-BoldItalic.otf"; path = "../src/assets/fonts/SF-Pro-Text-BoldItalic.otf"; sourceTree = "<group>"; };
+		0B49C4035874460FB78D7427 /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		11EF4E3E354749BFA4BADB92 /* SF-Pro-Text-RegularItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-RegularItalic.otf"; path = "../src/assets/fonts/SF-Pro-Text-RegularItalic.otf"; sourceTree = "<group>"; };
+		13A40C937EDFE5924424AFAA /* Pods-yac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yac.debug.xcconfig"; path = "Target Support Files/Pods-yac/Pods-yac.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* yac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = yac/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = yac/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = yac/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = yac/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = yac/main.m; sourceTree = "<group>"; };
+		18F72C5AA15C4BA2AA1283FC /* SF-Pro-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-SemiboldItalic.otf"; path = "../src/assets/fonts/SF-Pro-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		1BBA205D36C9F2C4586728D0 /* Pods-yac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yac.release.xcconfig"; path = "Target Support Files/Pods-yac/Pods-yac.release.xcconfig"; sourceTree = "<group>"; };
+		38702C847D0F44858B2C9DCA /* SF-Pro-Text-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-Light.otf"; path = "../src/assets/fonts/SF-Pro-Text-Light.otf"; sourceTree = "<group>"; };
+		4893C11D01074785BA531D30 /* SF-Pro-Text-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-LightItalic.otf"; path = "../src/assets/fonts/SF-Pro-Text-LightItalic.otf"; sourceTree = "<group>"; };
+		5F5B19C14435400F9F5C447E /* DMSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Italic.ttf"; path = "../src/assets/fonts/DMSans-Italic.ttf"; sourceTree = "<group>"; };
+		730E1704648F4D2EAC6464A2 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-Semibold.otf"; path = "../src/assets/fonts/SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		7757CCD273624F28AE843D76 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-Medium.otf"; path = "../src/assets/fonts/SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = yac/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D453B25D32B4CCB8E1FBA04 /* SF-Pro-Text-HeavyItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-HeavyItalic.otf"; path = "../src/assets/fonts/SF-Pro-Text-HeavyItalic.otf"; sourceTree = "<group>"; };
+		B31BBB2BBE3341AFACEF425B /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		C3BCA206712F4B1AB2DDA575 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-Bold.otf"; path = "../src/assets/fonts/SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		E857B8BA2640589300E65CD7 /* alert1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert1.wav; sourceTree = "<group>"; };
+		E857B8BD264058B600E65CD7 /* alert5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert5.wav; sourceTree = "<group>"; };
+		E857B8BE264058B600E65CD7 /* alert6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert6.wav; sourceTree = "<group>"; };
+		E857B8BF264058B600E65CD7 /* notification6_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification6_3.wav; sourceTree = "<group>"; };
+		E857B8C0264058B600E65CD7 /* notification22.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification22.wav; sourceTree = "<group>"; };
+		E857B8C1264058B600E65CD7 /* notification26.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification26.wav; sourceTree = "<group>"; };
+		E857B8C2264058B600E65CD7 /* alert4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert4.wav; sourceTree = "<group>"; };
+		E857B8C3264058B600E65CD7 /* notification3_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification3_1.wav; sourceTree = "<group>"; };
+		E857B8C4264058B600E65CD7 /* alert10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert10.wav; sourceTree = "<group>"; };
+		E857B8C5264058B600E65CD7 /* notification6_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification6_2.wav; sourceTree = "<group>"; };
+		E857B8C6264058B600E65CD7 /* notification8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification8.wav; sourceTree = "<group>"; };
+		E857B8C7264058B600E65CD7 /* alert12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert12.wav; sourceTree = "<group>"; };
+		E857B8C8264058B600E65CD7 /* notification24.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification24.wav; sourceTree = "<group>"; };
+		E857B8C9264058B600E65CD7 /* notification25.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification25.wav; sourceTree = "<group>"; };
+		E857B8CA264058B600E65CD7 /* notification1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification1.wav; sourceTree = "<group>"; };
+		E857B8CB264058B600E65CD7 /* notification11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification11.wav; sourceTree = "<group>"; };
+		E857B8CC264058B600E65CD7 /* alert14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert14.wav; sourceTree = "<group>"; };
+		E857B8CD264058B600E65CD7 /* notification9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification9.wav; sourceTree = "<group>"; };
+		E857B8CE264058B600E65CD7 /* notification10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification10.wav; sourceTree = "<group>"; };
+		E857B8CF264058B600E65CD7 /* notification2_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification2_1.wav; sourceTree = "<group>"; };
+		E857B8D0264058B600E65CD7 /* notification4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification4.wav; sourceTree = "<group>"; };
+		E857B8D1264058B600E65CD7 /* notification6_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification6_4.wav; sourceTree = "<group>"; };
+		E857B8D2264058B700E65CD7 /* notification2_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification2_2.wav; sourceTree = "<group>"; };
+		E857B8D3264058B700E65CD7 /* alert13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert13.wav; sourceTree = "<group>"; };
+		E857B8D4264058B700E65CD7 /* notification14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification14.wav; sourceTree = "<group>"; };
+		E857B8D5264058B700E65CD7 /* notification7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification7.wav; sourceTree = "<group>"; };
+		E857B8D6264058B700E65CD7 /* alert8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert8.wav; sourceTree = "<group>"; };
+		E857B8D7264058B700E65CD7 /* notification6_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification6_1.wav; sourceTree = "<group>"; };
+		E857B8D8264058B700E65CD7 /* notification5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification5.wav; sourceTree = "<group>"; };
+		E857B8D9264058B700E65CD7 /* notification13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification13.wav; sourceTree = "<group>"; };
+		E857B8DA264058B700E65CD7 /* notification16.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification16.wav; sourceTree = "<group>"; };
+		E857B8DB264058B700E65CD7 /* alert15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert15.wav; sourceTree = "<group>"; };
+		E857B8DC264058B700E65CD7 /* notification19.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification19.wav; sourceTree = "<group>"; };
+		E857B8DD264058B700E65CD7 /* notification20.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification20.wav; sourceTree = "<group>"; };
+		E857B8DE264058B700E65CD7 /* notification17.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification17.wav; sourceTree = "<group>"; };
+		E857B8DF264058B700E65CD7 /* notification21.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification21.wav; sourceTree = "<group>"; };
+		E857B8E0264058B700E65CD7 /* notification12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification12.wav; sourceTree = "<group>"; };
+		E857B8E1264058B700E65CD7 /* notification23.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification23.wav; sourceTree = "<group>"; };
+		E857B8E2264058B700E65CD7 /* alert7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert7.wav; sourceTree = "<group>"; };
+		E857B8E3264058B700E65CD7 /* alert9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert9.wav; sourceTree = "<group>"; };
+		E857B8E4264058B700E65CD7 /* notification3_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification3_2.wav; sourceTree = "<group>"; };
+		E857B8E5264058B700E65CD7 /* alert3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert3.wav; sourceTree = "<group>"; };
+		E857B8E6264058B700E65CD7 /* alert2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert2.wav; sourceTree = "<group>"; };
+		E857B8E7264058B700E65CD7 /* notification15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification15.wav; sourceTree = "<group>"; };
+		E857B8E8264058B700E65CD7 /* alert11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert11.wav; sourceTree = "<group>"; };
+		E857B8E9264058B700E65CD7 /* notification18.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification18.wav; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EE11B8E65BED4BEFAB6804BD /* SF-Pro-Text-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-MediumItalic.otf"; path = "../src/assets/fonts/SF-Pro-Text-MediumItalic.otf"; sourceTree = "<group>"; };
+		F05D25C45AB840E68052004C /* SF-Pro-Text-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-Heavy.otf"; path = "../src/assets/fonts/SF-Pro-Text-Heavy.otf"; sourceTree = "<group>"; };
+		F452467A47B45E804C037B64 /* libPods-yac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFEFC0D5F7941EDAAD6E5C2 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E47A18CF285CCC98072B01F9 /* libPods-yac.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* yac */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = yac;
+			sourceTree = "<group>";
+		};
+		1DD1A891E879CFD046AF01B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13A40C937EDFE5924424AFAA /* Pods-yac.debug.xcconfig */,
+				1BBA205D36C9F2C4586728D0 /* Pods-yac.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				F452467A47B45E804C037B64 /* libPods-yac.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* yac */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				1DD1A891E879CFD046AF01B7 /* Pods */,
+				E82A27D51E984C7788B9D3C2 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* yac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E82A27D51E984C7788B9D3C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E857B8E6264058B700E65CD7 /* alert2.wav */,
+				E857B8E5264058B700E65CD7 /* alert3.wav */,
+				E857B8C2264058B600E65CD7 /* alert4.wav */,
+				E857B8BD264058B600E65CD7 /* alert5.wav */,
+				E857B8BE264058B600E65CD7 /* alert6.wav */,
+				E857B8E2264058B700E65CD7 /* alert7.wav */,
+				E857B8D6264058B700E65CD7 /* alert8.wav */,
+				E857B8E3264058B700E65CD7 /* alert9.wav */,
+				E857B8C4264058B600E65CD7 /* alert10.wav */,
+				E857B8E8264058B700E65CD7 /* alert11.wav */,
+				E857B8C7264058B600E65CD7 /* alert12.wav */,
+				E857B8D3264058B700E65CD7 /* alert13.wav */,
+				E857B8CC264058B600E65CD7 /* alert14.wav */,
+				E857B8DB264058B700E65CD7 /* alert15.wav */,
+				E857B8CA264058B600E65CD7 /* notification1.wav */,
+				E857B8CF264058B600E65CD7 /* notification2_1.wav */,
+				E857B8D2264058B700E65CD7 /* notification2_2.wav */,
+				E857B8C3264058B600E65CD7 /* notification3_1.wav */,
+				E857B8E4264058B700E65CD7 /* notification3_2.wav */,
+				E857B8D0264058B600E65CD7 /* notification4.wav */,
+				E857B8D8264058B700E65CD7 /* notification5.wav */,
+				E857B8D7264058B700E65CD7 /* notification6_1.wav */,
+				E857B8C5264058B600E65CD7 /* notification6_2.wav */,
+				E857B8BF264058B600E65CD7 /* notification6_3.wav */,
+				E857B8D1264058B600E65CD7 /* notification6_4.wav */,
+				E857B8D5264058B700E65CD7 /* notification7.wav */,
+				E857B8C6264058B600E65CD7 /* notification8.wav */,
+				E857B8CD264058B600E65CD7 /* notification9.wav */,
+				E857B8CE264058B600E65CD7 /* notification10.wav */,
+				E857B8CB264058B600E65CD7 /* notification11.wav */,
+				E857B8E0264058B700E65CD7 /* notification12.wav */,
+				E857B8D9264058B700E65CD7 /* notification13.wav */,
+				E857B8D4264058B700E65CD7 /* notification14.wav */,
+				E857B8E7264058B700E65CD7 /* notification15.wav */,
+				E857B8DA264058B700E65CD7 /* notification16.wav */,
+				E857B8DE264058B700E65CD7 /* notification17.wav */,
+				E857B8E9264058B700E65CD7 /* notification18.wav */,
+				E857B8DC264058B700E65CD7 /* notification19.wav */,
+				E857B8DD264058B700E65CD7 /* notification20.wav */,
+				E857B8DF264058B700E65CD7 /* notification21.wav */,
+				E857B8C0264058B600E65CD7 /* notification22.wav */,
+				E857B8E1264058B700E65CD7 /* notification23.wav */,
+				E857B8C8264058B600E65CD7 /* notification24.wav */,
+				E857B8C9264058B600E65CD7 /* notification25.wav */,
+				E857B8C1264058B600E65CD7 /* notification26.wav */,
+				E857B8BA2640589300E65CD7 /* alert1.wav */,
+				5F5B19C14435400F9F5C447E /* DMSans-Italic.ttf */,
+				C3BCA206712F4B1AB2DDA575 /* SF-Pro-Text-Bold.otf */,
+				05C999CF4C9B47E0A3DF598A /* SF-Pro-Text-BoldItalic.otf */,
+				F05D25C45AB840E68052004C /* SF-Pro-Text-Heavy.otf */,
+				9D453B25D32B4CCB8E1FBA04 /* SF-Pro-Text-HeavyItalic.otf */,
+				38702C847D0F44858B2C9DCA /* SF-Pro-Text-Light.otf */,
+				4893C11D01074785BA531D30 /* SF-Pro-Text-LightItalic.otf */,
+				7757CCD273624F28AE843D76 /* SF-Pro-Text-Medium.otf */,
+				EE11B8E65BED4BEFAB6804BD /* SF-Pro-Text-MediumItalic.otf */,
+				03BC30D2CB354DE9981522D2 /* SF-Pro-Text-Regular.otf */,
+				11EF4E3E354749BFA4BADB92 /* SF-Pro-Text-RegularItalic.otf */,
+				730E1704648F4D2EAC6464A2 /* SF-Pro-Text-Semibold.otf */,
+				18F72C5AA15C4BA2AA1283FC /* SF-Pro-Text-SemiboldItalic.otf */,
+				FEFEFC0D5F7941EDAAD6E5C2 /* Roboto_medium.ttf */,
+				0B49C4035874460FB78D7427 /* Roboto.ttf */,
+				B31BBB2BBE3341AFACEF425B /* rubicon-icon-font.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* yac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "yac" */;
+			buildPhases = (
+				FB46546ECB74017AC14B7C96 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				F0937E994635B4D47E6E0A71 /* [CP] Embed Pods Frameworks */,
+				1DE5A9E53CEB5B260BEC80FF /* [CP] Copy Pods Resources */,
+				5C1870BD1B5127AC33030569 /* [CP-User] [NOTIFEE] Config */,
+				17217FF06B73F4F78A099C13 /* [CP-User] [RNFB] Core Configuration */,
+				E857B8B5264057D700E65CD7 /* Setup Firebase plist files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yac;
+			productName = yac;
+			productReference = 13B07F961A680F5B00A75B9A /* yac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "yac" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* yac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				5FA5534A9FB94A2D8537491F /* DMSans-Italic.ttf in Resources */,
+				B036189EC63C4D2294F773FB /* SF-Pro-Text-Bold.otf in Resources */,
+				E857B913264058B800E65CD7 /* alert2.wav in Resources */,
+				E857B8ED264058B800E65CD7 /* notification22.wav in Resources */,
+				E857B8F2264058B800E65CD7 /* notification6_2.wav in Resources */,
+				E857B8F0264058B800E65CD7 /* notification3_1.wav in Resources */,
+				E857B902264058B800E65CD7 /* notification7.wav in Resources */,
+				E857B901264058B800E65CD7 /* notification14.wav in Resources */,
+				56933BE498C04712A9EB15A3 /* SF-Pro-Text-BoldItalic.otf in Resources */,
+				E857B8F1264058B800E65CD7 /* alert10.wav in Resources */,
+				E857B915264058B800E65CD7 /* alert11.wav in Resources */,
+				E857B8BB2640589300E65CD7 /* alert1.wav in Resources */,
+				9D05A212BA734219808631AC /* SF-Pro-Text-Heavy.otf in Resources */,
+				A2D1D6C15AEF48D59365CB06 /* SF-Pro-Text-HeavyItalic.otf in Resources */,
+				CAAC751B8BBE475387CEFB02 /* SF-Pro-Text-Light.otf in Resources */,
+				448C992E9B4B40C686C01FC7 /* SF-Pro-Text-LightItalic.otf in Resources */,
+				DFB131BF965D4D74BD66B41B /* SF-Pro-Text-Medium.otf in Resources */,
+				3EDE0800FC644C7C8A1A968F /* SF-Pro-Text-MediumItalic.otf in Resources */,
+				E857B8EC264058B800E65CD7 /* notification6_3.wav in Resources */,
+				E857B8F7264058B800E65CD7 /* notification1.wav in Resources */,
+				21E69D61A52F4128BE60D150 /* SF-Pro-Text-Regular.otf in Resources */,
+				F09EB5A01A914E66B0F360E8 /* SF-Pro-Text-RegularItalic.otf in Resources */,
+				E857B90B264058B800E65CD7 /* notification17.wav in Resources */,
+				E857B90D264058B800E65CD7 /* notification12.wav in Resources */,
+				E857B905264058B800E65CD7 /* notification5.wav in Resources */,
+				E857B910264058B800E65CD7 /* alert9.wav in Resources */,
+				12B3869907434A43889F21D8 /* SF-Pro-Text-Semibold.otf in Resources */,
+				E857B8F8264058B800E65CD7 /* notification11.wav in Resources */,
+				E857B90C264058B800E65CD7 /* notification21.wav in Resources */,
+				E857B908264058B800E65CD7 /* alert15.wav in Resources */,
+				E857B8FC264058B800E65CD7 /* notification2_1.wav in Resources */,
+				93E7553960A940E9B27866AD /* SF-Pro-Text-SemiboldItalic.otf in Resources */,
+				E857B8EF264058B800E65CD7 /* alert4.wav in Resources */,
+				E857B8EE264058B800E65CD7 /* notification26.wav in Resources */,
+				E857B8F4264058B800E65CD7 /* alert12.wav in Resources */,
+				E857B8FA264058B800E65CD7 /* notification9.wav in Resources */,
+				E857B90A264058B800E65CD7 /* notification20.wav in Resources */,
+				E857B8FE264058B800E65CD7 /* notification6_4.wav in Resources */,
+				E857B90F264058B800E65CD7 /* alert7.wav in Resources */,
+				E857B8F6264058B800E65CD7 /* notification25.wav in Resources */,
+				E857B916264058B800E65CD7 /* notification18.wav in Resources */,
+				E857B90E264058B800E65CD7 /* notification23.wav in Resources */,
+				E857B8FB264058B800E65CD7 /* notification10.wav in Resources */,
+				E857B8F9264058B800E65CD7 /* alert14.wav in Resources */,
+				E857B8FD264058B800E65CD7 /* notification4.wav in Resources */,
+				E857B8EA264058B800E65CD7 /* alert5.wav in Resources */,
+				E857B8FF264058B800E65CD7 /* notification2_2.wav in Resources */,
+				E857B8F5264058B800E65CD7 /* notification24.wav in Resources */,
+				A19D6ECF2750413B9BF5508F /* Roboto_medium.ttf in Resources */,
+				E857B911264058B800E65CD7 /* notification3_2.wav in Resources */,
+				D9431178730046E09C12D727 /* Roboto.ttf in Resources */,
+				E857B909264058B800E65CD7 /* notification19.wav in Resources */,
+				E857B903264058B800E65CD7 /* alert8.wav in Resources */,
+				E857B907264058B800E65CD7 /* notification16.wav in Resources */,
+				E857B8F3264058B800E65CD7 /* notification8.wav in Resources */,
+				E857B914264058B800E65CD7 /* notification15.wav in Resources */,
+				E857B906264058B800E65CD7 /* notification13.wav in Resources */,
+				13299D28C1D44180AE20F6ED /* rubicon-icon-font.ttf in Resources */,
+				E857B900264058B800E65CD7 /* alert13.wav in Resources */,
+				E857B8EB264058B800E65CD7 /* alert6.wav in Resources */,
+				E857B912264058B800E65CD7 /* alert3.wav in Resources */,
+				E857B904264058B800E65CD7 /* notification6_1.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		17217FF06B73F4F78A099C13 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\n\n  # config.admob_delay_app_measurement_init\n  _ADMOB_DELAY_APP_MEASUREMENT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_delay_app_measurement_init\")\n  if [[ $_ADMOB_DELAY_APP_MEASUREMENT == \"true\" ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADDelayAppMeasurementInit\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"YES\")\n  fi\n\n  # config.admob_ios_app_id\n  _ADMOB_IOS_APP_ID=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_ios_app_id\")\n  if [[ $_ADMOB_IOS_APP_ID ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADApplicationIdentifier\")\n    _PLIST_ENTRY_TYPES+=(\"string\")\n    _PLIST_ENTRY_VALUES+=(\"$_ADMOB_IOS_APP_ID\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		1DE5A9E53CEB5B260BEC80FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yac/Pods-yac-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yac/Pods-yac-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yac/Pods-yac-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C1870BD1B5127AC33030569 /* [CP-User] [NOTIFEE] Config */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] [NOTIFEE] Config";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'ios'\"\n_JSON_FILE_NAME='notifee.config.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" \"$4\" || echo \"info:      '$1' already exists\"\n}\n\necho \"info: -> NOTIFEE build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"notifee_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\nelse\n  _PLIST_ENTRY_KEYS+=(\"notifee_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A notifee.config.json file was not found.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f ${plist} ]]; then\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- NOTIFEE build script finished\"\n";
+		};
+		E857B8B5264057D700E65CD7 /* Setup Firebase plist files */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Setup Firebase plist files";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Name of the resource to copy\nINFO_PLIST_FILE=GoogleService-Info.plist\nDEBUG_INFO_PLIST_FILE=DebugGoogleService-Info.plist\nRELEASE_INFO_PLIST_FILE=ReleaseGoogleService-Info.plist\nLOCAL_INFO_PLIST_FILE=LocalGoogleService-Info.plist\nSTAGGING_INFO_PLIST_FILE=StaggingGoogleService-Info.plist\n\nPLIST_SOURCE=${PROJECT_DIR}/${TARGET_NAME}/Firebase\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\n\n# Make sure the debug version exists\nif [ ! -f \"${PLIST_SOURCE}/${DEBUG_INFO_PLIST_FILE}\" ] ; then\n    echo \"File ${DEBUG_INFO_PLIST_FILE} not found.\"\n    exit 1\nfi\n\n# Make sure the release version exists\nif [ ! -f \"${PLIST_SOURCE}/${RELEASE_INFO_PLIST_FILE}\" ] ; then\n    echo \"File ${RELEASE_INFO_PLIST_FILE} not found.\"\n    exit 1\nfi\n\n# Make sure the local version exists\nif [ ! -f \"${PLIST_SOURCE}/${LOCAL_INFO_PLIST_FILE}\" ] ; then\n    echo \"File ${LOCAL_INFO_PLIST_FILE} not found.\"\n    exit 1\nfi\n\n# Make sure the stag version exists\nif [ ! -f \"${PLIST_SOURCE}/${STAGGING_INFO_PLIST_FILE}\" ] ; then\n    echo \"File ${STAGGING_INFO_PLIST_FILE} not found.\"\n    exit 1\nfi\n\n#case \"${CONFIGURATION}\" in\ncase \"Release\" in\n    Release)\n            echo \"File ${RELEASE_INFO_PLIST_FILE} copied\"\n            cp \"${PLIST_SOURCE}/${RELEASE_INFO_PLIST_FILE}\" \"${PLIST_DESTINATION}\"\n            rm -f \"${PLIST_DESTINATION}/${INFO_PLIST_FILE}\"\n            mv \"${PLIST_DESTINATION}/${RELEASE_INFO_PLIST_FILE}\" \"${PLIST_DESTINATION}/${INFO_PLIST_FILE}\"\n            ;;\n    Stagging)\n            echo \"File ${STAGGING_INFO_PLIST_FILE} copied\"\n            cp \"${PLIST_SOURCE}/${STAGGING_INFO_PLIST_FILE}\" \"${PLIST_DESTINATION}\"\n            rm -f \"${PLIST_DESTINATION}/${INFO_PLIST_FILE}\"\n            mv \"${PLIST_DESTINATION}/${STAGGING_INFO_PLIST_FILE}\" \"${PLIST_DESTINATION}/${INFO_PLIST_FILE}\"\n            ;;\n    Debug)\n            echo \"File ${DEBUG_INFO_PLIST_FILE} copied\"\n            cp \"${PLIST_SOURCE}/${DEBUG_INFO_PLIST_FILE}\" \"${PLIST_DESTINATION}\"\n            rm -f \"${PLIST_DESTINATION}/${INFO_PLIST_FILE}\"\n            mv \"${PLIST_DESTINATION}/${DEBUG_INFO_PLIST_FILE}\" \"${PLIST_DESTINATION}/${INFO_PLIST_FILE}\"\n            ;;        \n    Local)\n            echo \"File ${LOCAL_INFO_PLIST_FILE} copied\"\n            cp \"${PLIST_SOURCE}/${LOCAL_INFO_PLIST_FILE}\" \"${PLIST_DESTINATION}\"\n            rm -f \"${PLIST_DESTINATION}/${INFO_PLIST_FILE}\"\n            mv \"${PLIST_DESTINATION}/${LOCAL_INFO_PLIST_FILE}\" \"${PLIST_DESTINATION}/${INFO_PLIST_FILE}\"\n            ;;\nesac\n\n";
+		};
+		F0937E994635B4D47E6E0A71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yac/Pods-yac-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yac/Pods-yac-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yac/Pods-yac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB46546ECB74017AC14B7C96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A40C937EDFE5924424AFAA /* Pods-yac.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R368SK4Q6J;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = yac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yac.mobile;
+				PRODUCT_NAME = yac;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BBA205D36C9F2C4586728D0 /* Pods-yac.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R368SK4Q6J;
+				INFOPLIST_FILE = yac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yac.mobile;
+				PRODUCT_NAME = yac;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "yac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "yac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

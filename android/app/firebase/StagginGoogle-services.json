@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "923556038870",
+    "firebase_url": "https://yac-stagging.firebaseio.com",
+    "project_id": "yac-stagging",
+    "storage_bucket": "yac-stagging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923556038870:android:e7377f64df08b85dc22177",
+        "android_client_info": {
+          "package_name": "com.yac.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923556038870-m7pvm4b9f4gfndrp248ihqbb7tc2rbm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDugGh7BHb4wUjDAq0NY211vIJN3phAO_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923556038870-m7pvm4b9f4gfndrp248ihqbb7tc2rbm0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "923556038870-nvvmf98kc2isadv8pg3lirsjaardjhop.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yac.mobile",
+                "app_store_id": "1474626220"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
