@@ -51,7 +51,7 @@ const MyDarkTheme: MyThemeType = {
     invertedWhite: '#FFFFFF',
     invertedBlack: '#141414',
 
-    barStyle: 'dark-content'
+    barStyle: 'light-content'
   }
 };
 

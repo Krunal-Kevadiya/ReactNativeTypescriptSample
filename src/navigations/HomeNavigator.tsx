@@ -13,7 +13,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { createStackNavigator } from '@react-navigation/stack';
 import { ThemeSelectors } from '@reduxs';
-import { horizontalScale } from '@theme';
+import { horizontalScale, verticalScale } from '@theme';
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { RecorderTab } from './bottomtabbar/RecorderTab';
@@ -53,9 +53,10 @@ export function HomeBottomNavigator(): React.ReactElement {
       tabBarOptions={{
         showLabel: false,
         style: {
-          borderTopWidth: 0,
+          borderTopWidth: verticalScale(1),
           paddingHorizontal: horizontalScale(15),
-          backgroundColor: colors.primary
+          backgroundColor: colors.primary,
+          borderTopColor: colors.gray
         }
       }}>
       <Tab.Screen
