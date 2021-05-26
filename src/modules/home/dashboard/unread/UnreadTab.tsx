@@ -17,7 +17,7 @@ export function UnreadTab(): React.ReactElement {
         labelCenter="Unread Message"
         nameRight="add"
         typeRight={FontEnumType.materialIcons}
-        imageStyleRight={{ tintColor: colors.primary }}
+        imageStyleRight={{ color: colors.primary }}
         viewStyleRight={{ ...styles.inviteBtn, backgroundColor: colors.secondary }}
         onPressLeft={() => navigateToggleDrawer()}
       />

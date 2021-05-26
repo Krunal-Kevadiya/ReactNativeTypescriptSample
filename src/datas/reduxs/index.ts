@@ -1,12 +1,12 @@
-import { combineReducers } from 'redux';
-import { reducer as networkReducer } from 'react-native-offline';
-import { themeReducer } from './reducer/ThemeReducer';
+import { combineReducers } from '@reduxjs/toolkit';
+import { reducer as NetworkReducer } from 'react-native-offline';
+import { ThemeReducer } from './ThemeRedux';
 
-export { ThemeActions, ThemeTypes, ThemeSelectors } from './actor/ThemeActionSelectorAndState';
+export { ThemeActions, ThemeSelectors } from './ThemeRedux';
 
 export { getStroage } from './utils';
 
 export default combineReducers({
-  theme: themeReducer,
-  network: networkReducer
+  theme: ThemeReducer,
+  network: NetworkReducer
 });

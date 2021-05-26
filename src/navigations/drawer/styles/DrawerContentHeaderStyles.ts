@@ -40,7 +40,6 @@ export default StyleSheet.create({
   },
   userProfileView: {
     alignItems: 'center',
-    flexDirection: 'row',
-    marginTop: verticalScale(15)
+    flexDirection: 'row'
   }
 });

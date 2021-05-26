@@ -1,4 +1,4 @@
-import { ImageStyle } from 'react-native';
+import { ImageStyle, TextStyle } from 'react-native';
 
 export enum FontEnumType {
   antDesign,
@@ -23,5 +23,5 @@ export type CustomIconPropsType = {
   size?: number;
   name: string | number | undefined;
   color?: string;
-  style?: ImageStyle;
+  style?: ImageStyle | TextStyle;
 };

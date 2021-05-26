@@ -1,32 +1,48 @@
-import { sagaEnhancers, sagaMonitor } from '@config';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import { applyMiddleware, compose, createStore } from 'redux';
-import { persistReducer, persistStore } from 'redux-persist';
+import { persistReducer, persistStore, FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER } from 'redux-persist';
 import createSagaMiddleware from 'redux-saga';
+import { applyMiddleware, configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import rootSaga from '../sagas';
-import immutablePersistenceTransform from '../datautils/ImmutablePersistenceTransform';
 import rootReducer from './index';
 
-const sagaMiddleware = createSagaMiddleware({ sagaMonitor });
-const middleWare = [sagaMiddleware];
+const sagaMiddleware = createSagaMiddleware();
 
 const persistConfig = {
   key: '@Yac',
+  version: 1,
   storage: AsyncStorage,
-  blacklist: ['nav', 'navigation'],
-  transforms: [immutablePersistenceTransform]
+  blacklist: ['nav', 'navigation']
 };
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
+const middlewares = [
+  ...getDefaultMiddleware({
+    thunk: false,
+    serializableCheck: {
+      ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER]
+    }
+  }),
+  sagaMiddleware
+];
+if (__DEV__) {
+  const logger = require('redux-logger').default;
+  const loggerMiddleware = require('./middleware/logger').default;
+  middlewares.push(loggerMiddleware);
+  middlewares.push(logger);
+}
 
-// Add middleware to redux store
-// @ts-ignore
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-const middlewares = applyMiddleware(...middleWare);
+const enhancers = [applyMiddleware(...middlewares)];
+if (__DEV__) {
+  const monitorReducersEnhancer = require('./enhancers/monitorReducer').default;
+  enhancers.push(monitorReducersEnhancer);
+}
 
-const enhancers = __DEV__ ? composeEnhancers(middlewares, sagaEnhancers) : compose(middlewares);
-
-const store = createStore(persistedReducer, enhancers);
+const store = configureStore({
+  reducer: persistedReducer,
+  devTools: __DEV__,
+  middleware: middlewares,
+  enhancers
+});
 
 sagaMiddleware.run(rootSaga);
 

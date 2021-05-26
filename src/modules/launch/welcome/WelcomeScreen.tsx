@@ -14,8 +14,8 @@ export function WelcomeScreen(): React.ReactElement {
   const { colors } = useSelector(ThemeSelectors.getTheme);
 
   function navigateSignIn(): void {
-    // navigateWithReset(AppRoute.AUTH, AppRoute.SIGN_IN);
-    navigateWithReset(AppRoute.HOME, AppRoute.DASH_BOARD);
+    navigateWithReset(AppRoute.AUTH, AppRoute.SIGN_IN);
+    // navigateWithReset(AppRoute.HOME, AppRoute.DASH_BOARD);
   }
 
   return (

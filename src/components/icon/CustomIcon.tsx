@@ -1,6 +1,5 @@
-import { has } from 'lodash';
 import React from 'react';
-import { ColorValue, Image, ImageStyle } from 'react-native';
+import { Image } from 'react-native';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import Entypo from 'react-native-vector-icons/Entypo';
 import EvilIcons from 'react-native-vector-icons/EvilIcons';
@@ -18,45 +17,38 @@ import Zocial from 'react-native-vector-icons/Zocial';
 import type { CustomIconPropsType } from './Types';
 import { FontEnumType } from './Types';
 
-function getColor(styles?: ImageStyle, color?: string): string | undefined | ColorValue {
-  if (has(styles, 'tintColor')) {
-    return styles?.tintColor;
-  }
-  return color;
-}
-
-export function CustomIcon({ type, color, style, ...otherProps }: CustomIconPropsType): React.ReactElement {
+export function CustomIcon({ type, ...otherProps }: CustomIconPropsType): React.ReactElement {
   switch (type) {
     case FontEnumType.antDesign:
-      return <AntDesign {...otherProps} style={style} color={getColor(style, color)} />;
+      return <AntDesign {...otherProps} />;
     case FontEnumType.entypo:
-      return <Entypo {...otherProps} style={style} color={getColor(style, color)} />;
+      return <Entypo {...otherProps} />;
     case FontEnumType.evilIcons:
-      return <EvilIcons {...otherProps} style={style} color={getColor(style, color)} />;
+      return <EvilIcons {...otherProps} />;
     case FontEnumType.feather:
-      return <Feather {...otherProps} style={style} color={getColor(style, color)} />;
+      return <Feather {...otherProps} />;
     case FontEnumType.fontAwesome:
-      return <FontAwesome {...otherProps} style={style} color={getColor(style, color)} />;
+      return <FontAwesome {...otherProps} />;
     case FontEnumType.fontAwesome5:
-      return <FontAwesome5 {...otherProps} style={style} color={getColor(style, color)} />;
+      return <FontAwesome5 {...otherProps} />;
     case FontEnumType.fontisto:
-      return <Fontisto {...otherProps} style={style} color={getColor(style, color)} />;
+      return <Fontisto {...otherProps} />;
     case FontEnumType.foundation:
-      return <Foundation {...otherProps} style={style} color={getColor(style, color)} />;
+      return <Foundation {...otherProps} />;
     case FontEnumType.ionicons:
-      return <Ionicons {...otherProps} style={style} color={getColor(style, color)} />;
+      return <Ionicons {...otherProps} />;
     case FontEnumType.materialCommunityIcons:
-      return <MaterialCommunityIcons {...otherProps} style={style} color={getColor(style, color)} />;
+      return <MaterialCommunityIcons {...otherProps} />;
     case FontEnumType.materialIcons:
-      return <MaterialIcons {...otherProps} style={style} color={getColor(style, color)} />;
+      return <MaterialIcons {...otherProps} />;
     case FontEnumType.octicons:
-      return <Octicons {...otherProps} style={style} color={getColor(style, color)} />;
+      return <Octicons {...otherProps} />;
     case FontEnumType.simpleLineIcons:
-      return <SimpleLineIcons {...otherProps} style={style} color={getColor(style, color)} />;
+      return <SimpleLineIcons {...otherProps} />;
     case FontEnumType.zocial:
-      return <Zocial {...otherProps} style={style} color={getColor(style, color)} />;
+      return <Zocial {...otherProps} />;
     default:
       // @ts-ignore
-      return <Image source={otherProps.name} style={style} {...otherProps} />;
+      return <Image source={otherProps.name} {...otherProps} />;
   }
 }

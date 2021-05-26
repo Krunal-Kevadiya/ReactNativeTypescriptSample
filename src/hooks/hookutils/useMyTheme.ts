@@ -3,7 +3,7 @@ import { Colors } from '@theme';
 import { useEffect } from 'react';
 import { Appearance } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
-import useAsyncStorage from '../useAsyncStorage';
+import { useAsyncStorage } from '../useAsyncStorage';
 
 export function useMyTheme() {
   const dispatch = useDispatch();
